@@ -12,6 +12,5 @@ def tablesave(n, fields):
 
 n = int(input())
 fields = input().split()
-
 k = tablesave(n, fields)
 print('{:.2f}'.format(k/n))
