@@ -1,7 +1,7 @@
-T = int(input("Enter number of test cases:"))
+T = int(input())
 
 for i in range(T):
-    N = input("Enter String")
+    N = input()
     try:
         if N == float(N):
             print(True)
