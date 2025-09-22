@@ -1,9 +1,11 @@
 T = int(input())
-
 for i in range(T):
-    N = input()
-    try:
-        if N == float(N):
+    N= input()
+    if ('.') in N:
+        try:
+            N= float(N)
             print(True)
-    except:
+        except:
+            print(False)
+    else:
         print(False)
